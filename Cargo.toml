@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-user-daemons"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS user-daemons component"
+
+[lib]
+name = "user_daemons"
+path = "src/lib.rs"
