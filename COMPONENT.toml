@@ -3,12 +3,12 @@ name = "SigmaOS-user-daemons"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "user-daemons component"
+description = "User daemons component for SigmaOS"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
